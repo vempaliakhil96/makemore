@@ -9,3 +9,8 @@ dependencies = [
     "matplotlib>=3.11.0",
     "torch>=2.12.1",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.6.0",
+]
